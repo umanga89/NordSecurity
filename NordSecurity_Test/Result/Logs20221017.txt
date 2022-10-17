@@ -1,0 +1,40 @@
+2022-10-17 18:39:07.556 | INF | Feature file "File Scanning Functional" has started executing 
+2022-10-17 18:39:07.598 | INF | Scenario "File Scanning Functional Tests" has started executing 
+2022-10-17 18:39:07.624 | INF | Step "I have the file scanning library downloaded" has executed successfully! 
+2022-10-17 18:39:07.647 | INF | Step "I invoke ScanFile method with filePath notavirus.exe and sourceUrl https://totalylegitwebsite.com/freegames/notavirus.exe" has executed successfully! 
+2022-10-17 18:39:07.659 | INF | Step "I should get result as MALWARE" has executed successfully! 
+2022-10-17 18:39:07.661 | INF | Scenario "File Scanning Functional Tests" has ended executing 
+2022-10-17 18:39:07.668 | INF | Scenario "File Scanning Functional Tests" has started executing 
+2022-10-17 18:39:07.668 | INF | Step "I have the file scanning library downloaded" has executed successfully! 
+2022-10-17 18:39:07.668 | INF | Step "I invoke ScanFile method with filePath C:\Users\Administrator\Downloads\firefox.exe and sourceUrl https://ferefox.com/downloadfirefox" has executed successfully! 
+2022-10-17 18:39:07.669 | INF | Step "I should get result as MALWARE" has executed successfully! 
+2022-10-17 18:39:07.669 | INF | Scenario "File Scanning Functional Tests" has ended executing 
+2022-10-17 18:39:07.669 | INF | Scenario "File Scanning Functional Tests" has started executing 
+2022-10-17 18:39:07.669 | INF | Step "I have the file scanning library downloaded" has executed successfully! 
+2022-10-17 18:39:07.669 | INF | Step "I invoke ScanFile method with filePath C:\Music\Frankie Goes To Hollywood - Welcome To The Pleasuredome.mp3 and sourceUrl http://www.mp3download.cn/fght-welcome-to-the-pleasuredome.mp3" has executed successfully! 
+2022-10-17 18:39:07.771 | ERR | An ERROR occurred | {0}   Mismatch in expected and actual scan results
+  Expected: UNDETERMINED
+  But was:  BENIGN
+ 
+2022-10-17 18:39:07.778 | ERR | Step has FAILED | "I should get result as UNDETERMINED"  
+2022-10-17 18:39:07.780 | INF | Scenario "File Scanning Functional Tests" has ended executing 
+2022-10-17 18:39:07.780 | INF | Scenario "File Scanning Functional Tests" has started executing 
+2022-10-17 18:39:07.781 | INF | Step "I have the file scanning library downloaded" has executed successfully! 
+2022-10-17 18:39:07.781 | INF | Step "I invoke ScanFile method with filePath Mike + The Mechanics - Silent Running.mp3.exe and sourceUrl ftp://86.15.61.11" has executed successfully! 
+2022-10-17 18:39:07.781 | INF | Step "I should get result as MALWARE" has executed successfully! 
+2022-10-17 18:39:07.781 | INF | Scenario "File Scanning Functional Tests" has ended executing 
+2022-10-17 18:39:07.782 | INF | Scenario "File Scanning Functional Tests" has started executing 
+2022-10-17 18:39:07.782 | INF | Step "I have the file scanning library downloaded" has executed successfully! 
+2022-10-17 18:39:07.782 | INF | Step "I invoke ScanFile method with filePath ChromeSetup.exe and sourceUrl https://www.google.com/chrome/thank-you.html?statcb=1&installdataindex=empty&defaultbrowser=0#\"" has executed successfully! 
+2022-10-17 18:39:07.783 | ERR | An ERROR occurred | {0}   Mismatch in expected and actual scan results
+  Expected: BENIGN
+  But was:  SCAN_ERROR
+ 
+2022-10-17 18:39:07.783 | ERR | Step has FAILED | "I should get result as BENIGN"  
+2022-10-17 18:39:07.784 | INF | Scenario "File Scanning Functional Tests" has ended executing 
+2022-10-17 18:39:07.784 | INF | Scenario "File Scanning Functional Tests" has started executing 
+2022-10-17 18:39:07.784 | INF | Step "I have the file scanning library downloaded" has executed successfully! 
+2022-10-17 18:39:07.784 | INF | Step "I invoke ScanFile method with filePath /home/user/a18063885e58af9eeb47cabfeaa64b52.jpg and sourceUrl https://i.pinimg.com/736x/a1/80/63/a18063885e58af9eeb47cabfeaa64b52.jpg" has executed successfully! 
+2022-10-17 18:39:07.785 | INF | Step "I should get result as BENIGN" has executed successfully! 
+2022-10-17 18:39:07.785 | INF | Scenario "File Scanning Functional Tests" has ended executing 
+2022-10-17 18:39:07.788 | INF | Feature file "File Scanning Functional" has ended executing 
